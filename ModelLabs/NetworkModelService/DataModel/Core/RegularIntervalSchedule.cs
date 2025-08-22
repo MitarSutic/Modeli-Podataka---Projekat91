@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace FTN.Services.NetworkModelService.DataModel.Core
 {
-    public class ConductingEquipment : Equipment
+    public class RegularIntervalSchedule : RegularTimePoint
     {
-        public ConductingEquipment(long globalId) : base(globalId)
+        public RegularIntervalSchedule(long globalId) : base(globalId)
         {
         }
     }
