@@ -12,6 +12,7 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
         private int sequenceNumber;
         private float value1;
         private float value2;
+        private long intervalSchedule = 0;
 
         public RegularTimePoint(long globalId) : base(globalId)
         {
@@ -35,6 +36,12 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
             set { value2 = value; }
         }
 
+        public long IntervalSchedule
+        {
+            get { return intervalSchedule; }
+            set { intervalSchedule = value; }
+        }
+
         public override bool Equals(object obj)
         {
             if (base.Equals(obj))
@@ -42,7 +49,8 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
                 RegularTimePoint x = (RegularTimePoint)obj;
                 return ((x.sequenceNumber == this.sequenceNumber) &&
                         (x.value1 == this.value1) &&
-                        (x.value2 == this.value2));
+                        (x.value2 == this.value2) &&
+                        (x.IntervalSchedule == this.IntervalSchedule));
             }
             else
             {
@@ -64,8 +72,7 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
                 case ModelCode.REG_TIME_POINT_SEQ_NUM:
                 case ModelCode.REG_TIME_POINT_VAL1:
                 case ModelCode.REG_TIME_POINT_VAL2:
-
-
+                case ModelCode.REG_TIME_POINT_INTERVAL_SCHEDULE:
                     return true;
                 default:
                     return base.HasProperty(property);
@@ -85,6 +92,10 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
                     break;
 
                 case ModelCode.REG_TIME_POINT_VAL2:
+                    property.SetValue(value2);
+                    break;
+
+                case ModelCode.REG_TIME_POINT_INTERVAL_SCHEDULE:
                     property.SetValue(value2);
                     break;
 
@@ -110,6 +121,10 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
                     value2 = property.AsFloat();
                     break;
 
+                case ModelCode.REG_TIME_POINT_INTERVAL_SCHEDULE:
+                    value2 = property.AsReference();
+                    break;
+
                 default:
                     base.SetProperty(property);
                     break;
@@ -118,5 +133,18 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
 
         #endregion IAccess implementation
 
+
+
+
+        public override void GetReferences(Dictionary<ModelCode, List<long>> references, TypeOfReference refType)
+        {
+            if (intervalSchedule != 0 && (refType == TypeOfReference.Reference || refType == TypeOfReference.Both))
+            {
+                references[ModelCode.REG_TIME_POINT_INTERVAL_SCHEDULE] = new List<long>();
+                references[ModelCode.REG_TIME_POINT_INTERVAL_SCHEDULE].Add(intervalSchedule);
+            }
+
+            base.GetReferences(references, refType);
+        }
     }
 }

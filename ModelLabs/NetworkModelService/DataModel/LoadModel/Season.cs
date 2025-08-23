@@ -12,6 +12,7 @@ namespace FTN.Services.NetworkModelService.DataModel.LoadModel
     {
         private DateTime endDate;
         private DateTime startDate;
+        private List<long> seasonDayTypeSchedule=new List<long>(); 
         public Season(long globalId) : base(globalId)
         {
         }
@@ -28,13 +29,20 @@ namespace FTN.Services.NetworkModelService.DataModel.LoadModel
             set { startDate = value; }
         }
 
+        public List<long> SeasonDayTypeSchedule
+        {
+            get { return seasonDayTypeSchedule; }
+            set { seasonDayTypeSchedule = value; }
+        }
+
         public override bool Equals(object obj)
         {
             if (base.Equals(obj))
             {
                 Season x = (Season)obj;
                 return ((x.endDate == this.endDate) &&
-                        (x.startDate == this.startDate));
+                        (x.startDate == this.startDate)) &&
+                        CompareHelper.CompareLists(x.SeasonDayTypeSchedule,this.SeasonDayTypeSchedule);
             }
             else
             {
