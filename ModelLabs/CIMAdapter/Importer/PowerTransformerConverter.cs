@@ -1,6 +1,8 @@
 ﻿namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
 {
-	using FTN.Common;
+    using System;
+    using FTN;
+    using FTN.Common;
 
 	/// <summary>
 	/// PowerTransformerConverter has methods for populating
@@ -326,6 +328,36 @@
 					return WindingConnection.Y;
 			}
 		}
-		#endregion Enums convert
-	}
+
+        internal static void PopulateBreakerProperties(Breaker cimBreaker, ResourceDescription rd)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal static void PopulateRecloserProperties(Recloser cimRecloser, ResourceDescription rd)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal static void PopulateLoadBreakProperties(LoadBreakSwitch cimLoadBreakSwitch, ResourceDescription rd)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal static void PopulateSwitchScheduleProperties(SwitchSchedule cimSwitchSchedule, ResourceDescription rd)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal static void PopulateSeasonProperties(Season cimSeason, ResourceDescription rd)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal static void PopulateDayTypeProperties(DayType cimDayType, ResourceDescription rd)
+        {
+            throw new NotImplementedException();
+        }
+        #endregion Enums convert
+    }
 }

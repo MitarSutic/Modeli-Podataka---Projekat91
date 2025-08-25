@@ -3,72 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|c:\\users\\mitar\\onedrive\\desktop\\faks\\zimski semestar\\modeli\\projekat\\modeli-podataka---projekat91\\modellabs\\networkmodelservice\\datamodel\\core\\regularintervalschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\core\\regularintervalschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|c:\\users\\mitar\\onedrive\\desktop\\faks\\zimski semestar\\modeli\\projekat\\modeli-podataka---projekat91\\modellabs\\cimadapter\\importer\\powertransformerimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|solutionrelative:cimadapter\\importer\\powertransformerimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|c:\\users\\mitar\\onedrive\\desktop\\faks\\zimski semestar\\modeli\\projekat\\modeli-podataka---projekat91\\modellabs\\networkmodelservice\\datamodel\\core\\regulartimepoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\core\\regulartimepoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\cimadapter\\importer\\powertransformerconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F680D34F-C148-4314-8914-B2DF3E7B17AF}|CIMAdapter\\CIMAdapter.csproj|solutionrelative:cimadapter\\importer\\powertransformerconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|c:\\users\\mitar\\onedrive\\desktop\\faks\\zimski semestar\\modeli\\projekat\\modeli-podataka---projekat91\\modellabs\\networkmodelservice\\datamodel\\loadmodel\\season.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\loadmodel\\season.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|c:\\users\\mitar\\onedrive\\desktop\\faks\\zimski semestar\\modeli\\projekat\\modeli-podataka---projekat91\\modellabs\\networkmodelservice\\datamodel\\core\\basicintervalschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\core\\basicintervalschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|c:\\users\\mitar\\onedrive\\desktop\\faks\\zimski semestar\\modeli\\projekat\\modeli-podataka---projekat91\\modellabs\\networkmodelservice\\datamodel\\core\\conductingequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\core\\conductingequipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|c:\\users\\mitar\\onedrive\\desktop\\faks\\zimski semestar\\modeli\\projekat\\modeli-podataka---projekat91\\modellabs\\networkmodelservice\\datamodel\\ies_projects\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\ies_projects\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|c:\\users\\mitar\\onedrive\\desktop\\faks\\zimski semestar\\modeli\\projekat\\modeli-podataka---projekat91\\modellabs\\networkmodelservice\\datamodel\\ies_projects\\breaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\ies_projects\\breaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|c:\\users\\mitar\\onedrive\\desktop\\faks\\zimski semestar\\modeli\\projekat\\modeli-podataka---projekat91\\modellabs\\networkmodelservice\\datamodel\\ies_projects\\loadbreakerswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\ies_projects\\loadbreakerswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|c:\\users\\mitar\\onedrive\\desktop\\faks\\zimski semestar\\modeli\\projekat\\modeli-podataka---projekat91\\modellabs\\networkmodelservice\\datamodel\\ies_projects\\recloser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\ies_projects\\recloser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|c:\\users\\mitar\\onedrive\\desktop\\faks\\zimski semestar\\modeli\\projekat\\modeli-podataka---projekat91\\modellabs\\networkmodelservice\\datamodel\\loadmodel\\daytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\loadmodel\\daytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|c:\\users\\mitar\\onedrive\\desktop\\faks\\zimski semestar\\modeli\\projekat\\modeli-podataka---projekat91\\modellabs\\networkmodelservice\\datamodel\\ies_projects\\seasondaytypeschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\ies_projects\\seasondaytypeschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|c:\\users\\mitar\\onedrive\\desktop\\faks\\zimski semestar\\modeli\\projekat\\modeli-podataka---projekat91\\modellabs\\networkmodelservice\\datamodel\\wires\\switchschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\wires\\switchschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|c:\\users\\mitar\\onedrive\\desktop\\faks\\zimski semestar\\modeli\\projekat\\modeli-podataka---projekat91\\modellabs\\networkmodelservice\\datamodel\\wires\\protectedswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\wires\\protectedswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|c:\\users\\mitar\\onedrive\\desktop\\faks\\zimski semestar\\modeli\\projekat\\modeli-podataka---projekat91\\modellabs\\networkmodelservice\\datamodel\\core\\powersystemresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\core\\powersystemresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|c:\\users\\mitar\\onedrive\\desktop\\faks\\zimski semestar\\modeli\\projekat\\modeli-podataka---projekat91\\modellabs\\common\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\common\\modelresourcesdesc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\modelresourcesdesc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\common\\modeldefines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\modeldefines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|c:\\users\\mitar\\onedrive\\desktop\\faks\\zimski semestar\\modeli\\projekat\\modeli-podataka---projekat91\\modellabs\\common\\enumdescs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\enumdescs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\networkmodelservice\\datamodel\\ies_projects\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\ies_projects\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\networkmodelservice\\datamodel\\ies_projects\\breaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\ies_projects\\breaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,232 +34,87 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Breaker.cs",
-              "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\IES_Projects\\Breaker.cs",
-              "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\IES_Projects\\Breaker.cs",
-              "ToolTip": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\IES_Projects\\Breaker.cs",
-              "RelativeToolTip": "NetworkModelService\\DataModel\\IES_Projects\\Breaker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T12:14:19.784Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LoadBreakerSwitch.cs",
-              "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\IES_Projects\\LoadBreakerSwitch.cs",
-              "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\IES_Projects\\LoadBreakerSwitch.cs",
-              "ToolTip": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\IES_Projects\\LoadBreakerSwitch.cs",
-              "RelativeToolTip": "NetworkModelService\\DataModel\\IES_Projects\\LoadBreakerSwitch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T12:14:52.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Recloser.cs",
-              "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\IES_Projects\\Recloser.cs",
-              "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\IES_Projects\\Recloser.cs",
-              "ToolTip": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\IES_Projects\\Recloser.cs",
-              "RelativeToolTip": "NetworkModelService\\DataModel\\IES_Projects\\Recloser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T12:14:37.497Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DayType.cs",
-              "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\LoadModel\\DayType.cs",
-              "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\LoadModel\\DayType.cs",
-              "ToolTip": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\LoadModel\\DayType.cs",
-              "RelativeToolTip": "NetworkModelService\\DataModel\\LoadModel\\DayType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T12:08:45.246Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RegularIntervalSchedule.cs",
-              "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\Core\\RegularIntervalSchedule.cs",
-              "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Core\\RegularIntervalSchedule.cs",
-              "ToolTip": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\Core\\RegularIntervalSchedule.cs",
-              "RelativeToolTip": "NetworkModelService\\DataModel\\Core\\RegularIntervalSchedule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T12:10:29.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ConductingEquipment.cs",
-              "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\Core\\ConductingEquipment.cs",
-              "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Core\\ConductingEquipment.cs",
-              "ToolTip": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\Core\\ConductingEquipment.cs",
-              "RelativeToolTip": "NetworkModelService\\DataModel\\Core\\ConductingEquipment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T13:08:54.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Equipment.cs",
-              "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\IES_Projects\\Equipment.cs",
-              "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\IES_Projects\\Equipment.cs",
-              "ToolTip": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\IES_Projects\\Equipment.cs",
-              "RelativeToolTip": "NetworkModelService\\DataModel\\IES_Projects\\Equipment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T12:33:46.686Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BasicIntervalSchedule.cs",
-              "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\Core\\BasicIntervalSchedule.cs",
-              "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Core\\BasicIntervalSchedule.cs",
-              "ToolTip": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\Core\\BasicIntervalSchedule.cs",
-              "RelativeToolTip": "NetworkModelService\\DataModel\\Core\\BasicIntervalSchedule.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwEQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T12:05:21.799Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Season.cs",
-              "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\LoadModel\\Season.cs",
-              "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\LoadModel\\Season.cs",
-              "ToolTip": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\LoadModel\\Season.cs",
-              "RelativeToolTip": "NetworkModelService\\DataModel\\LoadModel\\Season.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAAAFYAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T12:54:14.307Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegularTimePoint.cs",
-              "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\Core\\RegularTimePoint.cs",
-              "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Core\\RegularTimePoint.cs",
-              "ToolTip": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\Core\\RegularTimePoint.cs",
-              "RelativeToolTip": "NetworkModelService\\DataModel\\Core\\RegularTimePoint.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T12:09:20.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SeasonDayTypeSchedule.cs",
-              "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\IES_Projects\\SeasonDayTypeSchedule.cs",
-              "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\IES_Projects\\SeasonDayTypeSchedule.cs",
-              "ToolTip": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\IES_Projects\\SeasonDayTypeSchedule.cs",
-              "RelativeToolTip": "NetworkModelService\\DataModel\\IES_Projects\\SeasonDayTypeSchedule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T12:12:31.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SwitchSchedule.cs",
-              "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\Wires\\SwitchSchedule.cs",
-              "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Wires\\SwitchSchedule.cs",
-              "ToolTip": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\Wires\\SwitchSchedule.cs",
-              "RelativeToolTip": "NetworkModelService\\DataModel\\Wires\\SwitchSchedule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T12:13:07.388Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ProtectedSwitch.cs",
-              "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\Wires\\ProtectedSwitch.cs",
-              "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Wires\\ProtectedSwitch.cs",
-              "ToolTip": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\Wires\\ProtectedSwitch.cs",
-              "RelativeToolTip": "NetworkModelService\\DataModel\\Wires\\ProtectedSwitch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T12:13:41.27Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PowerSystemResource.cs",
-              "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\Core\\PowerSystemResource.cs",
-              "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Core\\PowerSystemResource.cs",
-              "ToolTip": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\Core\\PowerSystemResource.cs",
-              "RelativeToolTip": "NetworkModelService\\DataModel\\Core\\PowerSystemResource.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T12:33:22.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "EnumDescs.cs",
-              "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\Common\\EnumDescs.cs",
-              "RelativeDocumentMoniker": "Common\\EnumDescs.cs",
-              "ToolTip": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\Common\\EnumDescs.cs",
-              "RelativeToolTip": "Common\\EnumDescs.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAmwBAAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T11:33:33.848Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Enums.cs",
-              "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\Common\\Enums.cs",
-              "RelativeDocumentMoniker": "Common\\Enums.cs",
-              "ToolTip": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\Common\\Enums.cs",
-              "RelativeToolTip": "Common\\Enums.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAkwFgAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "PowerTransformerImporter.cs",
+              "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\CIMAdapter\\Importer\\PowerTransformerImporter.cs",
+              "RelativeDocumentMoniker": "CIMAdapter\\Importer\\PowerTransformerImporter.cs",
+              "ToolTip": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\CIMAdapter\\Importer\\PowerTransformerImporter.cs",
+              "RelativeToolTip": "CIMAdapter\\Importer\\PowerTransformerImporter.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAAwJQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T13:18:05.498Z",
+              "WhenOpened": "2025-08-25T11:22:12.036Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 1,
+              "Title": "PowerTransformerConverter.cs",
+              "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\CIMAdapter\\Importer\\PowerTransformerConverter.cs",
+              "RelativeDocumentMoniker": "CIMAdapter\\Importer\\PowerTransformerConverter.cs",
+              "ToolTip": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\CIMAdapter\\Importer\\PowerTransformerConverter.cs",
+              "RelativeToolTip": "CIMAdapter\\Importer\\PowerTransformerConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T12:35:56.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ModelDefines.cs",
               "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\Common\\ModelDefines.cs",
               "RelativeDocumentMoniker": "Common\\ModelDefines.cs",
               "ToolTip": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\Common\\ModelDefines.cs",
               "RelativeToolTip": "Common\\ModelDefines.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAgwEkAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-21T11:43:04.115Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ModelResourcesDesc.cs",
+              "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\Common\\ModelResourcesDesc.cs",
+              "RelativeDocumentMoniker": "Common\\ModelResourcesDesc.cs",
+              "ToolTip": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\Common\\ModelResourcesDesc.cs",
+              "RelativeToolTip": "Common\\ModelResourcesDesc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T11:32:35.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Equipment.cs",
+              "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\IES_Projects\\Equipment.cs",
+              "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\IES_Projects\\Equipment.cs",
+              "ToolTip": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\IES_Projects\\Equipment.cs",
+              "RelativeToolTip": "NetworkModelService\\DataModel\\IES_Projects\\Equipment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T12:33:46.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Breaker.cs",
+              "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\IES_Projects\\Breaker.cs",
+              "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\IES_Projects\\Breaker.cs",
+              "ToolTip": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\IES_Projects\\Breaker.cs",
+              "RelativeToolTip": "NetworkModelService\\DataModel\\IES_Projects\\Breaker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T12:14:19.784Z"
             }
           ]
         }

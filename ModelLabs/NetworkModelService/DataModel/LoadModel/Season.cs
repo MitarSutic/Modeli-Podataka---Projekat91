@@ -58,6 +58,7 @@ namespace FTN.Services.NetworkModelService.DataModel.LoadModel
             {
                 case ModelCode.EQUIPMENT_AGGREGATE:
                 case ModelCode.EQUIPMENT_NORMALLY_IN_SERVICE:
+                case ModelCode.SEASON_SDTS:
 
                     return true;
                 default:
@@ -75,6 +76,10 @@ namespace FTN.Services.NetworkModelService.DataModel.LoadModel
 
                 case ModelCode.SEASON_START_DATE:
                     property.SetValue(startDate);
+                    break;
+
+                case ModelCode.SEASON_SDTS:
+                    property.SetValue(seasonDayTypeSchedule);
                     break;
 
                 default:
@@ -102,5 +107,60 @@ namespace FTN.Services.NetworkModelService.DataModel.LoadModel
         }
 
         #endregion IAccess implementation
+
+        public override bool IsReferenced
+        {
+            get
+            {
+                return (seasonDayTypeSchedule.Count > 0) || base.IsReferenced;
+            }
+        }
+
+        public override void GetReferences(Dictionary<ModelCode, List<long>> references, TypeOfReference refType)
+        {
+
+            if (seasonDayTypeSchedule != null && seasonDayTypeSchedule.Count != 0 && (refType == TypeOfReference.Target || refType == TypeOfReference.Both))
+            {
+                references[ModelCode.SEASON_SDTS] = seasonDayTypeSchedule.GetRange(0, seasonDayTypeSchedule.Count);
+            }
+
+            base.GetReferences(references, refType);
+        }
+
+        public override void AddReference(ModelCode referenceId, long globalId)
+        {
+            switch (referenceId)
+            {
+                case ModelCode.SEASON_SDTS:
+                    seasonDayTypeSchedule.Add(globalId);
+                    break;
+                default:
+                    base.AddReference(referenceId, globalId);
+                    break;
+            }
+        }
+
+        public override void RemoveReference(ModelCode referenceId, long globalId)
+        {
+            switch (referenceId)
+            {
+                case ModelCode.SEASON_SDTS:
+
+                    if (seasonDayTypeSchedule.Contains(globalId))
+                    {
+                        seasonDayTypeSchedule.Remove(globalId);
+                    }
+                    else
+                    {
+                        CommonTrace.WriteTrace(CommonTrace.TraceWarning, "Entity (GID = 0x{0:x16}) doesn't contain reference 0x{1:x16}.", this.GlobalId, globalId);
+                    }
+
+                    break;
+
+                default:
+                    base.RemoveReference(referenceId, globalId);
+                    break;
+            }
+        }
     }
 }

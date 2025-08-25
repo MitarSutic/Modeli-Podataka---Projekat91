@@ -79,17 +79,11 @@ namespace FTN.Services.NetworkModelService.DataModel.IES_Projects
         {
             switch (property.Id)
             {
-                case ModelCode.TERMINAL_CONNECTED:
-                    connected = property.AsBool();
+                case ModelCode.SEASON_DTS_DAYTYPE:
+                    dayType = property.AsReference();
                     break;
-                case ModelCode.TERMINAL_PHASES:
-                    phases = (PhaseCode)property.AsEnum();
-                    break;
-                case ModelCode.TERMINAL_SEQNUM:
-                    sequenceNumber = property.AsLong();
-                    break;
-                case ModelCode.TERMINAL_CONDEQUIPMENT:
-                    conductingEquipment = property.AsReference();
+                case ModelCode.SEASON_DTS_SEASON:
+                    season = property.AsReference();
                     break;
                 default:
                     base.SetProperty(property);
@@ -97,85 +91,19 @@ namespace FTN.Services.NetworkModelService.DataModel.IES_Projects
             }
         }
 
-        public override bool IsReferenced
-        {
-            get
-            {
-                return (transformerEnds.Count > 0) || (regulatingControls.Count > 0) || base.IsReferenced;
-            }
-        }
-
         public override void GetReferences(Dictionary<ModelCode, List<long>> references, TypeOfReference refType)
         {
-            if (conductingEquipment != 0 && (refType == TypeOfReference.Reference || refType == TypeOfReference.Both))
+            if (dayType != 0 && (refType == TypeOfReference.Reference || refType == TypeOfReference.Both))
             {
-                references[ModelCode.TERMINAL_CONDEQUIPMENT] = new List<long>();
-                references[ModelCode.TERMINAL_CONDEQUIPMENT].Add(conductingEquipment);
+                references[ModelCode.SEASON_DTS_DAYTYPE] = new List<long> { dayType };
             }
 
-            if (regulatingControls != null && regulatingControls.Count != 0 && (refType == TypeOfReference.Target || refType == TypeOfReference.Both))
+            if (season != 0 && (refType == TypeOfReference.Reference || refType == TypeOfReference.Both))
             {
-                references[ModelCode.TERMINAL_REGCONTROLS] = regulatingControls.GetRange(0, regulatingControls.Count);
-            }
-
-            if (transformerEnds != null && transformerEnds.Count != 0 && (refType == TypeOfReference.Target || refType == TypeOfReference.Both))
-            {
-                references[ModelCode.TERMINAL_TRANSENDS] = transformerEnds.GetRange(0, transformerEnds.Count);
+                references[ModelCode.SEASON_DTS_DAYTYPE] = new List<long> { season };
             }
 
             base.GetReferences(references, refType);
-        }
-
-        public override void AddReference(ModelCode referenceId, long globalId)
-        {
-            switch (referenceId)
-            {
-                case ModelCode.REGCONTROL_TERMINAL:
-                    regulatingControls.Add(globalId);
-                    break;
-                case ModelCode.TRANSEND_TERMINAL:
-                    transformerEnds.Add(globalId);
-                    break;
-                default:
-                    base.AddReference(referenceId, globalId);
-                    break;
-            }
-        }
-
-        public override void RemoveReference(ModelCode referenceId, long globalId)
-        {
-            switch (referenceId)
-            {
-                case ModelCode.TRANSEND_TERMINAL:
-
-                    if (transformerEnds.Contains(globalId))
-                    {
-                        transformerEnds.Remove(globalId);
-                    }
-                    else
-                    {
-                        CommonTrace.WriteTrace(CommonTrace.TraceWarning, "Entity (GID = 0x{0:x16}) doesn't contain reference 0x{1:x16}.", this.GlobalId, globalId);
-                    }
-
-                    break;
-
-                case ModelCode.REGCONTROL_TERMINAL:
-
-                    if (regulatingControls.Contains(globalId))
-                    {
-                        regulatingControls.Remove(globalId);
-                    }
-                    else
-                    {
-                        CommonTrace.WriteTrace(CommonTrace.TraceWarning, "Entity (GID = 0x{0:x16}) doesn't contain reference 0x{1:x16}.", this.GlobalId, globalId);
-                    }
-
-                    break;
-
-                default:
-                    base.RemoveReference(referenceId, globalId);
-                    break;
-            }
-        }
+        }        
     }
 }
