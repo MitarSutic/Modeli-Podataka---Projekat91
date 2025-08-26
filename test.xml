@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:cim="http://iec.ch/TC57/2010/CIM-schema-cim15#"
+         xmlns:ftn="http://www.ftnydro.com/CIM15/2010/extension#">
+
+<cim:Breaker rdf:ID="B1">
+        <cim:Breaker.inTransitTime>50.5</cim:Breaker.inTransitTime>
+        <cim:ProtectedSwitch.breakingCapacity>20000</cim:ProtectedSwitch.breakingCapacity>
+        <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
+        <cim:Switch.ratedCurrent>1600</cim:Switch.ratedCurrent>
+        <cim:Switch.retained>true</cim:Switch.retained>
+        <cim:Switch.switchOnCount>20</cim:Switch.switchOnCount>
+        <cim:Switch.switchOnDate>2018-04-10</cim:Switch.switchOnDate>
+        <cim:Equipment.aggregate>false</cim:Equipment.aggregate>
+        <cim:Equipment.normallyInService>true</cim:Equipment.normallyInService>
+        <cim:IdentifiedObject.aliasName>B1</cim:IdentifiedObject.aliasName>
+        <cim:IdentifiedObject.mRID>B1</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.name>B1</cim:IdentifiedObject.name>
+    </cim:Breaker>
+
+    <cim:Season rdf:ID="S1">
+        <cim:Season.startDate>2018-01-01</cim:Season.startDate>
+        <cim:Season.endDate>2018-03-11</cim:Season.endDate>
+        <cim:IdentifiedObject.aliasName>Winter</cim:IdentifiedObject.aliasName>
+        <cim:IdentifiedObject.mRID>S1</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.name>S2</cim:IdentifiedObject.name>
+    </cim:Season>
+
+<cim:DayType rdf:ID="DT1">
+        <cim:IdentifiedObject.aliasName>Weekday</cim:IdentifiedObject.aliasName>
+        <cim:IdentifiedObject.mRID>DT1</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.name>DT1</cim:IdentifiedObject.name>
+    </cim:DayType>
+
+    <cim:SwitchSchedule rdf:ID="SS1">
+    <cim:IdentifiedObject.name>SS1</cim:IdentifiedObject.name>
+    <!-- <cim:SwitchSchedule.Season rdf:resource="#S1"/> -->
+    <!-- <cim:SwitchSchedule.DayType rdf:resource="#DT1"/>
+    <cim:SwitchSchedule.Switch rdf:resource="#B1"/> -->
+  </cim:SwitchSchedule>
+
+</rdf:RDF>

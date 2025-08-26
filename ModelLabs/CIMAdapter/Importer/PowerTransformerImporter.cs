@@ -82,7 +82,7 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
 					LogManager.Log(message);
 					report.Report.AppendLine(ex.Message);
 					report.Success = false;
-				}
+				} 
 			}
 			LogManager.Log("Importing PowerTransformer Elements - END.", LogLevel.Info);
 			return report;
@@ -104,9 +104,9 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
 			ImportBreaker();
 			ImportRecloser();
 			ImportLoadBreakSwitch();
-			ImportSwitchSchedule();
 			ImportSeason();
 			ImportDayType();
+			ImportSwitchSchedule();
 
             LogManager.Log("Loading elements and creating delta completed.", LogLevel.Info);
 		}
@@ -148,7 +148,7 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
                 importHelper.DefineIDMapping(cimDayType.ID, gid);
 
                 ////populate ResourceDescription
-                PowerTransformerConverter.PopulateBaseVoltageProperties(cimDayType, rd);
+                PowerTransformerConverter.PopulateDayTypeProperties(cimDayType, rd);
             }
             return rd;
         }
@@ -163,7 +163,7 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
 
                     FTN.Season cimSeason = cimSeasonPair.Value as Season;
 
-                    ResourceDescription rd = CreateBaseVoltageResourceDescription(cimSeason);
+                    ResourceDescription rd = CreateSeasonResourceDescription(cimSeason);
                     if (rd != null)
                     {
                         delta.AddDeltaOperation(DeltaOpType.Insert, rd, true);
@@ -178,6 +178,21 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
             }
         }
 
+        private ResourceDescription CreateSeasonResourceDescription(Season cimSeason)
+        {
+            ResourceDescription rd = null;
+            if (cimSeason != null)
+            {
+                long gid = ModelCodeHelper.CreateGlobalId(0, (short)DMSType.SEASON, importHelper.CheckOutIndexForDMSType(DMSType.SEASON));
+                rd = new ResourceDescription(gid);
+                importHelper.DefineIDMapping(cimSeason.ID, gid);
+
+                ////populate ResourceDescription
+                PowerTransformerConverter.PopulateSeasonProperties(cimSeason, rd);
+            }
+            return rd;
+        }
+
         private void ImportSwitchSchedule()
         {
             SortedDictionary<string, object> cimSwitchSchedules = concreteModel.GetAllObjectsOfType("FTN.SwitchSchedule");
@@ -188,7 +203,7 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
 
                     FTN.SwitchSchedule cimSwitchSchedule = cimSwitchSchedulePair.Value as SwitchSchedule;
 
-                    ResourceDescription rd = CreateBaseVoltageResourceDescription(cimSwitchSchedule);
+                    ResourceDescription rd = CreateSwitchScheduleResourceDescription(cimSwitchSchedule);
                     if (rd != null)
                     {
                         delta.AddDeltaOperation(DeltaOpType.Insert, rd, true);
@@ -203,6 +218,21 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
             }
         }
 
+        private ResourceDescription CreateSwitchScheduleResourceDescription(SwitchSchedule cimSwitchSchedule)
+        {
+            ResourceDescription rd = null;
+            if (cimSwitchSchedule != null)
+            {
+                long gid = ModelCodeHelper.CreateGlobalId(0, (short)DMSType.SWITCH_SCHEDULE, importHelper.CheckOutIndexForDMSType(DMSType.SWITCH_SCHEDULE));
+                rd = new ResourceDescription(gid);
+                importHelper.DefineIDMapping(cimSwitchSchedule.ID, gid);
+
+                ////populate ResourceDescription
+                PowerTransformerConverter.PopulateSwitchScheduleProperties(cimSwitchSchedule, rd, importHelper,report);
+            }
+            return rd;
+        }
+
         private void ImportLoadBreakSwitch()
         {
             SortedDictionary<string, object> cimLoadBreakSwitches = concreteModel.GetAllObjectsOfType("FTN.LoadBreakSwitch");
@@ -213,7 +243,7 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
 
                     FTN.LoadBreakSwitch cimLoadBreakSwitch = cimLoadBreakSwitchPair.Value as LoadBreakSwitch;
 
-                    ResourceDescription rd = CreateBaseVoltageResourceDescription(cimLoadBreakSwitch);
+                    ResourceDescription rd = CreateLoadBreakResourceDescription(cimLoadBreakSwitch);
                     if (rd != null)
                     {
                         delta.AddDeltaOperation(DeltaOpType.Insert, rd, true);
@@ -228,6 +258,21 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
             }
         }
 
+        private ResourceDescription CreateLoadBreakResourceDescription(LoadBreakSwitch cimLoadBreakSwitch)
+        {
+            ResourceDescription rd = null;
+            if (cimLoadBreakSwitch != null)
+            {
+                long gid = ModelCodeHelper.CreateGlobalId(0, (short)DMSType.LOAD_BREAK_SWITCH, importHelper.CheckOutIndexForDMSType(DMSType.LOAD_BREAK_SWITCH));
+                rd = new ResourceDescription(gid);
+                importHelper.DefineIDMapping(cimLoadBreakSwitch.ID, gid);
+
+                ////populate ResourceDescription
+                PowerTransformerConverter.PopulateLoadBreakProperties(cimLoadBreakSwitch, rd);
+            }
+            return rd;
+        }
+
         private void ImportRecloser()
         {
             SortedDictionary<string, object> cimReclosers = concreteModel.GetAllObjectsOfType("FTN.Recloser");
@@ -238,7 +283,7 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
 
                     FTN.Recloser cimRecloser = cimRecloserPair.Value as Recloser;
 
-                    ResourceDescription rd = CreateBaseVoltageResourceDescription(cimRecloser);
+                    ResourceDescription rd = CreateRecloserResourceDescription(cimRecloser);
                     if (rd != null)
                     {
                         delta.AddDeltaOperation(DeltaOpType.Insert, rd, true);
@@ -251,6 +296,21 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
                 }
                 report.Report.AppendLine();
             }
+        }
+
+        private ResourceDescription CreateRecloserResourceDescription(Recloser cimRecloser)
+        {
+            ResourceDescription rd = null;
+            if (cimRecloser != null)
+            {
+                long gid = ModelCodeHelper.CreateGlobalId(0, (short)DMSType.RECLOSER, importHelper.CheckOutIndexForDMSType(DMSType.RECLOSER));
+                rd = new ResourceDescription(gid);
+                importHelper.DefineIDMapping(cimRecloser.ID, gid);
+
+                ////populate ResourceDescription
+                PowerTransformerConverter.PopulateRecloserProperties(cimRecloser, rd);
+            }
+            return rd;
         }
 
         private void ImportBreaker()
@@ -287,7 +347,7 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
 				importHelper.DefineIDMapping(cimBreaker.ID, gid);
 
 				////populate ResourceDescription
-				PowerTransformerConverter.PopulateBaseVoltageProperties(cimBreaker, rd);
+				PowerTransformerConverter.PopulateBreakerProperties(cimBreaker, rd);
 			}
 			return rd;
 		}

@@ -67,5 +67,6 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
 			}
 			return gid;
 		}
-	}
+
+    }
 }

@@ -164,7 +164,7 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
 			try
 			{						
 				List<ModelCode> properties = new List<ModelCode>();
-                properties.Add(ModelCode.IDOBJ_DESCRIPTION);
+                properties.Add(ModelCode.IDOBJ_ALIAS_NAME);
                 properties.Add(ModelCode.IDOBJ_MRID);
                 properties.Add(ModelCode.IDOBJ_NAME);
 						
@@ -211,6 +211,49 @@ namespace TelventDMS.Services.NetworkModelService.TestClient.Tests
 			return resultIds;
 		}
 
+        public List<long> GetAllGids()
+        {
+            ModelResourcesDesc modelResourcesDesc = new ModelResourcesDesc();
+            List<ModelCode> prop = new List<ModelCode>();
+            List<long> ids = new List<long>();
+
+            int iter = 0;
+            int numOfResources = 1000;
+            DMSType currType = 0;
+            prop.Add(ModelCode.IDOBJ_GID);
+            try
+            {
+                foreach (DMSType type in Enum.GetValues(typeof(DMSType)))
+                {
+                    currType = type;
+
+                    if (type != DMSType.MASK_TYPE)
+                    {
+                        iter = gdaQueryProxy.GetExtentValues(modelResourcesDesc.GetModelCodeFromType(type), prop);
+                        int count = gdaQueryProxy.IteratorResourcesLeft(iter);
+
+                        while (count > 0)
+                        {
+                            List<ResourceDescription> rds = GdaQueryProxy.IteratorNext(numOfResources, iter);
+
+                            for (int i = 0; i < rds.Count; i++)
+                            {
+                                ids.Add(rds[i].Id);
+                            }
+
+                            count = GdaQueryProxy.IteratorResourcesLeft(iter);
+                        }
+
+                        bool ok = gdaQueryProxy.IteratorClose(iter);
+                    }
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            return ids;
+        }
         #endregion GDAQueryService
 
         #region Test Methods

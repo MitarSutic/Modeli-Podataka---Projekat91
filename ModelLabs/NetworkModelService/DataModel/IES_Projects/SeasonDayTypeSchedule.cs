@@ -100,7 +100,7 @@ namespace FTN.Services.NetworkModelService.DataModel.IES_Projects
 
             if (season != 0 && (refType == TypeOfReference.Reference || refType == TypeOfReference.Both))
             {
-                references[ModelCode.SEASON_DTS_DAYTYPE] = new List<long> { season };
+                references[ModelCode.SEASON_DTS_SEASON] = new List<long> { season };
             }
 
             base.GetReferences(references, refType);
