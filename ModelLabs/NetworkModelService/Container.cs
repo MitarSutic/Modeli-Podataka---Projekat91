@@ -143,9 +143,6 @@ namespace FTN.Services.NetworkModelService
                 case DMSType.DAYTYPE:
                     io = new DayType(globalId);
                     break;
-				case DMSType.REG_TIME_POINT:
-					io = new RegularTimePoint(globalId);
-					break;
 
                 default:					
 					string message = String.Format("Failed to create entity because specified type ({0}) is not supported.", type);

@@ -11067,34 +11067,3 @@
 9/3/2025 12:13:29 PM : Inserting entity with GID (0000000600000022).
 9/3/2025 12:13:29 PM : Inserting entity with GID (0000000600000023).
 9/3/2025 12:13:29 PM : Applying delta to network model successfully finished.
-9/3/2025 10:47:08 PM : Starting Network Model Serivice...
-9/3/2025 10:47:08 PM : The WCF service GenericDataAccess is ready.
-9/3/2025 10:47:08 PM : Endpoints:
-9/3/2025 10:47:08 PM : net.tcp://localhost:10000/NetworkModelService/GDA/
-9/3/2025 10:47:08 PM : Connection string: ../NetworkModelData.data
-9/3/2025 10:47:08 PM : Trace level: Info
-9/3/2025 10:47:08 PM : The Network Model Service is started.
-9/3/2025 10:47:08 PM : Press <Enter> to stop the service.
-9/3/2025 10:47:30 PM : Applying  delta to network model.
-9/3/2025 10:47:30 PM : Inserting entity with GID (0000000100000001).
-9/3/2025 10:47:30 PM : Inserting entity with GID (0000000100000002).
-9/3/2025 10:47:30 PM : Inserting entity with GID (0000000100000003).
-9/3/2025 10:47:30 PM : Inserting entity with GID (0000000200000001).
-9/3/2025 10:47:30 PM : Inserting entity with GID (0000000200000002).
-9/3/2025 10:47:30 PM : Inserting entity with GID (0000000200000003).
-9/3/2025 10:47:30 PM : Inserting entity with GID (0000000300000001).
-9/3/2025 10:47:30 PM : Inserting entity with GID (0000000300000002).
-9/3/2025 10:47:30 PM : Inserting entity with GID (0000000300000003).
-9/3/2025 10:47:30 PM : Inserting entity with GID (0000000400000001).
-9/3/2025 10:47:30 PM : Inserting entity with GID (0000000400000002).
-9/3/2025 10:47:30 PM : Inserting entity with GID (0000000400000003).
-9/3/2025 10:47:30 PM : Inserting entity with GID (0000000500000001).
-9/3/2025 10:47:30 PM : Inserting entity with GID (0000000500000002).
-9/3/2025 10:47:30 PM : Inserting entity with GID (0000000500000003).
-9/3/2025 10:47:30 PM : Inserting entity with GID (0000000600000001).
-9/3/2025 10:47:30 PM : Inserting entity with GID (0000000600000002).
-9/3/2025 10:47:30 PM : Inserting entity with GID (0000000600000003).
-9/3/2025 10:47:30 PM : Inserting entity with GID (0000000700000001).
-9/3/2025 10:47:30 PM : Inserting entity with GID (0000000700000002).
-9/3/2025 10:47:30 PM : Inserting entity with GID (0000000700000003).
-9/3/2025 10:47:30 PM : Applying delta to network model successfully finished.

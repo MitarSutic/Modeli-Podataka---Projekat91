@@ -59,7 +59,7 @@
     <Compile Include="GetRelatedValues.xaml.cs">
       <DependentUpon>GetRelatedValues.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MyTestGda.cs" />
+    <Compile Include="TestGda.cs" />
     <Page Include="GetExtentValues.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

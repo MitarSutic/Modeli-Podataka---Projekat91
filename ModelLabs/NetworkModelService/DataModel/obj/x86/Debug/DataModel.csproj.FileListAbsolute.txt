@@ -33,13 +33,6 @@ D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\bin\FTN.DataModel.pdb
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\NetworkModelService\DataModel\obj\x86\Debug\ResolveAssemblyReference.cache
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\NetworkModelService\DataModel\obj\x86\Debug\FTN.DataModel.dll
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\NetworkModelService\DataModel\obj\x86\Debug\FTN.DataModel.pdb
-C:\Users\mitar\OneDrive\Desktop\Modeli-Podataka---Projekat91\ModelLabs\bin\FTN.DataModel.dll
-C:\Users\mitar\OneDrive\Desktop\Modeli-Podataka---Projekat91\ModelLabs\bin\FTN.DataModel.pdb
-C:\Users\mitar\OneDrive\Desktop\Modeli-Podataka---Projekat91\ModelLabs\NetworkModelService\DataModel\obj\x86\Debug\DataModel.csproj.AssemblyReference.cache
-C:\Users\mitar\OneDrive\Desktop\Modeli-Podataka---Projekat91\ModelLabs\NetworkModelService\DataModel\obj\x86\Debug\DataModel.csproj.CoreCompileInputs.cache
-C:\Users\mitar\OneDrive\Desktop\Modeli-Podataka---Projekat91\ModelLabs\NetworkModelService\DataModel\obj\x86\Debug\DataModel.csproj.Up2Date
-C:\Users\mitar\OneDrive\Desktop\Modeli-Podataka---Projekat91\ModelLabs\NetworkModelService\DataModel\obj\x86\Debug\FTN.DataModel.dll
-C:\Users\mitar\OneDrive\Desktop\Modeli-Podataka---Projekat91\ModelLabs\NetworkModelService\DataModel\obj\x86\Debug\FTN.DataModel.pdb
 C:\Users\mitar\OneDrive\Desktop\Faks\Zimski semestar\Modeli\Projekat\Modeli-Podataka---Projekat91\ModelLabs\bin\FTN.DataModel.dll
 C:\Users\mitar\OneDrive\Desktop\Faks\Zimski semestar\Modeli\Projekat\Modeli-Podataka---Projekat91\ModelLabs\bin\FTN.DataModel.pdb
 C:\Users\mitar\OneDrive\Desktop\Faks\Zimski semestar\Modeli\Projekat\Modeli-Podataka---Projekat91\ModelLabs\NetworkModelService\DataModel\obj\x86\Debug\DataModel.csproj.AssemblyReference.cache

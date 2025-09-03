@@ -33,7 +33,7 @@
     <Grid Margin="10">
 
         <!-- Top navigation bar -->
-        <DockPanel Background="Gray" Height="60" VerticalAlignment="Top" LastChildFill="False">
+        <DockPanel Background="#2c3e50" Height="60" VerticalAlignment="Top" LastChildFill="False">
             <Button Content="GetValues"
                 DockPanel.Dock="Left"
                 Style="{StaticResource NavButtonStyle}"

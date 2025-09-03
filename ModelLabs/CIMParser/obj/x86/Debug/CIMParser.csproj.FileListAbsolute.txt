@@ -13,12 +13,6 @@ D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\bin\CIMParser.pdb
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\CIMParser\obj\x86\Debug\ResolveAssemblyReference.cache
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\CIMParser\obj\x86\Debug\CIMParser.dll
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\CIMParser\obj\x86\Debug\CIMParser.pdb
-C:\Users\mitar\OneDrive\Desktop\Modeli-Podataka---Projekat91\ModelLabs\bin\CIMParser.dll
-C:\Users\mitar\OneDrive\Desktop\Modeli-Podataka---Projekat91\ModelLabs\bin\CIMParser.pdb
-C:\Users\mitar\OneDrive\Desktop\Modeli-Podataka---Projekat91\ModelLabs\CIMParser\obj\x86\Debug\CIMParser.csproj.AssemblyReference.cache
-C:\Users\mitar\OneDrive\Desktop\Modeli-Podataka---Projekat91\ModelLabs\CIMParser\obj\x86\Debug\CIMParser.csproj.CoreCompileInputs.cache
-C:\Users\mitar\OneDrive\Desktop\Modeli-Podataka---Projekat91\ModelLabs\CIMParser\obj\x86\Debug\CIMParser.dll
-C:\Users\mitar\OneDrive\Desktop\Modeli-Podataka---Projekat91\ModelLabs\CIMParser\obj\x86\Debug\CIMParser.pdb
 C:\Users\mitar\OneDrive\Desktop\Faks\Zimski semestar\Modeli\Projekat\Modeli-Podataka---Projekat91\ModelLabs\bin\CIMParser.dll
 C:\Users\mitar\OneDrive\Desktop\Faks\Zimski semestar\Modeli\Projekat\Modeli-Podataka---Projekat91\ModelLabs\bin\CIMParser.pdb
 C:\Users\mitar\OneDrive\Desktop\Faks\Zimski semestar\Modeli\Projekat\Modeli-Podataka---Projekat91\ModelLabs\CIMParser\obj\x86\Debug\CIMParser.csproj.AssemblyReference.cache

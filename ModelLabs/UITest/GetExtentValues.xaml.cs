@@ -21,7 +21,7 @@ namespace UITest
 
     public partial class GetExtentValues : Window
     {
-    public static MyTestGda testGda;
+    public static TestGda testGda;
     public static ModelResourcesDesc resourcesDesc;
     public static Dictionary<ModelCode, List<ModelCode>> propertyIDsByModelCode;
     public static List<long> gids;
@@ -31,7 +31,7 @@ namespace UITest
     {
         InitializeComponent();
 
-        testGda = new MyTestGda();
+        testGda = new TestGda();
         resourcesDesc = new ModelResourcesDesc();
 
         propertyIDsByModelCode = Enum.GetValues(typeof(ModelCode))
@@ -40,13 +40,12 @@ namespace UITest
 
         var codes = new List<ModelCode>
     {
-        ModelCode.DAYTYPE,
-        ModelCode.SEASON,
-        ModelCode.REG_TIME_POINT,
         ModelCode.BREAKER,
-        ModelCode.SWITCH_SCHEDULE,
         ModelCode.RECLOSER,
-        ModelCode.LOAD_BREAK_SWITCH
+        ModelCode.LOAD_BREAK_SWITCH,
+        ModelCode.SEASON,
+        ModelCode.DAYTYPE,
+        ModelCode.SWITCH_SCHEDULE
     };
 
         ModelCodeComboBox.ItemsSource = codes

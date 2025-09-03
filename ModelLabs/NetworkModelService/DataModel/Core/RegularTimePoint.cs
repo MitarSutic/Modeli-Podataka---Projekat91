@@ -50,7 +50,7 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
                 return ((x.sequenceNumber == this.sequenceNumber) &&
                         (x.value1 == this.value1) &&
                         (x.value2 == this.value2) &&
-                        (x.intervalSchedule == this.intervalSchedule));
+                        (x.IntervalSchedule == this.IntervalSchedule));
             }
             else
             {
@@ -96,7 +96,7 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
                     break;
 
                 case ModelCode.REG_TIME_POINT_INTERVAL_SCHEDULE:
-                    property.SetValue(intervalSchedule);
+                    property.SetValue(value2);
                     break;
 
                 default:
@@ -122,7 +122,7 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
                     break;
 
                 case ModelCode.REG_TIME_POINT_INTERVAL_SCHEDULE:
-                    intervalSchedule = property.AsReference();
+                    value2 = property.AsReference();
                     break;
 
                 default:
@@ -140,7 +140,8 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
         {
             if (intervalSchedule != 0 && (refType == TypeOfReference.Reference || refType == TypeOfReference.Both))
             {
-                references[ModelCode.REG_TIME_POINT_INTERVAL_SCHEDULE] = new List<long>() { intervalSchedule };
+                references[ModelCode.REG_TIME_POINT_INTERVAL_SCHEDULE] = new List<long>();
+                references[ModelCode.REG_TIME_POINT_INTERVAL_SCHEDULE].Add(intervalSchedule);
             }
 
             base.GetReferences(references, refType);

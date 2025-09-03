@@ -12,7 +12,7 @@ namespace FTN.Services.NetworkModelService.DataModel.LoadModel
     {
         private DateTime endDate;
         private DateTime startDate;
-        private List<long> seasonDayTypeSchedule = new List<long>(); 
+        private List<long> seasonDayTypeSchedule=new List<long>(); 
         public Season(long globalId) : base(globalId)
         {
         }
@@ -42,7 +42,7 @@ namespace FTN.Services.NetworkModelService.DataModel.LoadModel
                 Season x = (Season)obj;
                 return ((x.endDate == this.endDate) &&
                         (x.startDate == this.startDate)) &&
-                        CompareHelper.CompareLists(x.seasonDayTypeSchedule,this.seasonDayTypeSchedule);
+                        CompareHelper.CompareLists(x.SeasonDayTypeSchedule,this.SeasonDayTypeSchedule);
             }
             else
             {
@@ -131,7 +131,7 @@ namespace FTN.Services.NetworkModelService.DataModel.LoadModel
         {
             switch (referenceId)
             {
-                case ModelCode.SEASON_DTS_SEASON:
+                case ModelCode.SEASON_SDTS:
                     seasonDayTypeSchedule.Add(globalId);
                     break;
                 default:
@@ -144,7 +144,7 @@ namespace FTN.Services.NetworkModelService.DataModel.LoadModel
         {
             switch (referenceId)
             {
-                case ModelCode.SEASON_DTS_SEASON:
+                case ModelCode.SEASON_SDTS:
 
                     if (seasonDayTypeSchedule.Contains(globalId))
                     {

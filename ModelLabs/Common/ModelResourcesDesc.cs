@@ -865,14 +865,13 @@ namespace FTN.Common
 		# region Initialization of metadata
 
 		private void InitializeTypeIdsInInsertOrder()
-		{
+		{			
+			typeIdsInInsertOrder.Add(ModelCode.BREAKER);
+			typeIdsInInsertOrder.Add(ModelCode.RECLOSER);
+			typeIdsInInsertOrder.Add(ModelCode.LOAD_BREAK_SWITCH);
+			typeIdsInInsertOrder.Add(ModelCode.SWITCH_SCHEDULE);
+			typeIdsInInsertOrder.Add(ModelCode.SEASON);
             typeIdsInInsertOrder.Add(ModelCode.DAYTYPE);
-            typeIdsInInsertOrder.Add(ModelCode.SEASON);
-            typeIdsInInsertOrder.Add(ModelCode.REG_TIME_POINT);
-            typeIdsInInsertOrder.Add(ModelCode.BREAKER);
-            typeIdsInInsertOrder.Add(ModelCode.SWITCH_SCHEDULE);
-            typeIdsInInsertOrder.Add(ModelCode.RECLOSER);
-            typeIdsInInsertOrder.Add(ModelCode.LOAD_BREAK_SWITCH);	
         }
 
 		private void InitializeNotSettablePropertyIds()

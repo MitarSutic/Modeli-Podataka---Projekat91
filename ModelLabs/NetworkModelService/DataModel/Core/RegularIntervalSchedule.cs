@@ -65,7 +65,7 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
         {
             get
             {
-                return (timePoints.Count > 0) || base.IsReferenced;
+                return (timePoints.Count > 0) || (timePoints.Count > 0) || base.IsReferenced;
             }
         }
 
@@ -85,7 +85,7 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
         {
             switch (referenceId)
             {
-                case ModelCode.REG_TIME_POINT_INTERVAL_SCHEDULE:
+                case ModelCode.REG_INT_SCHEDULE_TIME_POINTS:
                     timePoints.Add(globalId);
                     break;
                 default:
@@ -98,7 +98,7 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
         {
             switch (referenceId)
             {
-                case ModelCode.REG_TIME_POINT_INTERVAL_SCHEDULE:
+                case ModelCode.REG_INT_SCHEDULE_TIME_POINTS:
 
                     if (timePoints.Contains(globalId))
                     {
