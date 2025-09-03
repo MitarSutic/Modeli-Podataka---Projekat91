@@ -1,0 +1,91 @@
+﻿<Window x:Class="UITest.GetExtentValues"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UITest"
+        mc:Ignorable="d"
+        Title="GetExtentValues" Height="800" Width="1000">
+    <Window.Resources>
+        <Style x:Key="NavButtonStyle" TargetType="Button">
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontFamily" Value="Trebuchet MS"/>
+            <Setter Property="Margin" Value="20,10,0,10"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderBrush" Value="Transparent"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="5">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="10">
+
+        <!-- Top navigation bar -->
+        <DockPanel Background="#2c3e50" Height="60" VerticalAlignment="Top" LastChildFill="False">
+            <Button Content="GetValues"
+                DockPanel.Dock="Left"
+                Style="{StaticResource NavButtonStyle}"
+                Click="ButtonGetValues_Click"/>
+            <Button Content="GetExtentValues"
+                DockPanel.Dock="Left"
+                Style="{StaticResource NavButtonStyle}"
+                Click="ButtonGetExtentValues_Click"/>
+            <Button Content="GetRelatedValues"
+                DockPanel.Dock="Left"
+                Style="{StaticResource NavButtonStyle}"
+                Click="ButtonGetRelatedValues_Click"/>
+        </DockPanel>
+
+        <!-- Main layout grid -->
+        <Grid Margin="0,70,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="350"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Left panel -->
+            <StackPanel Grid.Column="0" Margin="10" VerticalAlignment="Top" >
+
+                <Label Content="Choose ModelCode:" FontSize="16" FontWeight="Bold" Margin="0,10,0,5"/>
+                <ComboBox x:Name="ModelCodeComboBox" Height="30" Margin="0,0,0,10"
+                      SelectionChanged="ModelCodeComboBox_SelectionChanged"/>
+
+                <Button x:Name="GetExtentValuesButton" Content="Get Extent Values" Height="30" Width="160"
+                    Background="#27ae60" Foreground="White" Margin="0,0,0,20"
+                    Click="GetExtentValuesButton_Click" Visibility="Hidden"/>
+
+                <CheckBox x:Name="SelectAllCheckBox" Content="Select All Properties"
+                      Margin="0,0,0,10" Click="SelectAllCheckBox_Click"
+                      FontWeight="SemiBold" Visibility="Hidden"/>
+
+                <ScrollViewer Height="500" VerticalScrollBarVisibility="Auto">
+                    <UniformGrid x:Name="CheckBoxGrid" Columns="1"/>
+                </ScrollViewer>
+            </StackPanel>
+
+            <!-- Results panel -->
+            <StackPanel Grid.Column="1" Margin="10">
+                <TextBlock Text="Results:" FontSize="16" FontWeight="Bold" Margin="0,10,0,5"/>
+                <TextBox x:Name="ResultsTextBox"
+                     VerticalScrollBarVisibility="Auto"
+                     TextWrapping="Wrap"
+                     AcceptsReturn="True"
+                     Height="600"
+                     FontFamily="Consolas"
+                     FontSize="14"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

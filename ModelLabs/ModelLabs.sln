@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36327.8 d17.14
+VisualStudioVersion = 17.14.36327.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIMParser", "CIMParser\CIMParser.csproj", "{3C03A41C-BE4C-40A8-97D5-5DBAC0C34102}"
 EndProject
@@ -33,6 +33,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NMSTestClient", "NetworkModelService\Test\NMSTestClient\NMSTestClient.csproj", "{32EE9373-A350-42AC-972B-41B2EDABA082}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkModelServiceSelfHost", "NetworkModelService\ServiceHost\NetworkModelServiceSelfHost\NetworkModelServiceSelfHost.csproj", "{E112FFCC-BD88-4056-99E1-0991A0E82588}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MyTestApp", "MyTestApp", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UITest", "UITest\UITest.csproj", "{79B560DC-391D-471B-9A05-17CBF50253FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -122,6 +126,14 @@ Global
 		{E112FFCC-BD88-4056-99E1-0991A0E82588}.Release|x64.Build.0 = Release|x64
 		{E112FFCC-BD88-4056-99E1-0991A0E82588}.Release|x86.ActiveCfg = Release|x86
 		{E112FFCC-BD88-4056-99E1-0991A0E82588}.Release|x86.Build.0 = Release|x86
+		{79B560DC-391D-471B-9A05-17CBF50253FD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{79B560DC-391D-471B-9A05-17CBF50253FD}.Debug|x64.Build.0 = Debug|Any CPU
+		{79B560DC-391D-471B-9A05-17CBF50253FD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{79B560DC-391D-471B-9A05-17CBF50253FD}.Debug|x86.Build.0 = Debug|Any CPU
+		{79B560DC-391D-471B-9A05-17CBF50253FD}.Release|x64.ActiveCfg = Release|Any CPU
+		{79B560DC-391D-471B-9A05-17CBF50253FD}.Release|x64.Build.0 = Release|Any CPU
+		{79B560DC-391D-471B-9A05-17CBF50253FD}.Release|x86.ActiveCfg = Release|Any CPU
+		{79B560DC-391D-471B-9A05-17CBF50253FD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -134,6 +146,7 @@ Global
 		{ADE96497-7C11-40B6-AE82-57F956C9F104} = {ABC630A2-50D2-4DF5-B4FF-C6E1FABE530E}
 		{32EE9373-A350-42AC-972B-41B2EDABA082} = {CD0EE85F-3877-4725-9A29-968A33156D3D}
 		{E112FFCC-BD88-4056-99E1-0991A0E82588} = {ABC630A2-50D2-4DF5-B4FF-C6E1FABE530E}
+		{79B560DC-391D-471B-9A05-17CBF50253FD} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D04F4FE1-1957-4A22-900C-99AEA35DF3F2}

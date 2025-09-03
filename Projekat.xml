@@ -201,4 +201,31 @@
     <cim:SwitchSchedule.Switch rdf:resource="#B3"/>
   </cim:SwitchSchedule>
 
+<!-- RegularTimePoint -->
+<cim:RegularTimePoint rdf:ID="RTP1">
+    <cim:RegularTimePoint.sequenceNumber>1</cim:RegularTimePoint.sequenceNumber>
+    <cim:RegularTimePoint.value1>100.0</cim:RegularTimePoint.value1>
+    <cim:RegularTimePoint.value2>200.0</cim:RegularTimePoint.value2>
+    <cim:IdentifiedObject.aliasName>RegularTimePoint1</cim:IdentifiedObject.aliasName>
+    <cim:IdentifiedObject.mRID>RTP1</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>RegularTimePoint01</cim:IdentifiedObject.name>
+</cim:RegularTimePoint>
+
+<cim:RegularTimePoint rdf:ID="RTP2">
+    <cim:RegularTimePoint.sequenceNumber>2</cim:RegularTimePoint.sequenceNumber>
+    <cim:RegularTimePoint.value1>120.0</cim:RegularTimePoint.value1>
+    <cim:RegularTimePoint.value2>210.0</cim:RegularTimePoint.value2>
+    <cim:IdentifiedObject.aliasName>RegularTimePoint2</cim:IdentifiedObject.aliasName>
+    <cim:IdentifiedObject.mRID>RTP2</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>RegularTimePoint02</cim:IdentifiedObject.name>
+</cim:RegularTimePoint>
+
+<cim:RegularTimePoint rdf:ID="RTP3">
+    <cim:RegularTimePoint.sequenceNumber>3</cim:RegularTimePoint.sequenceNumber>
+    <cim:RegularTimePoint.value1>90.0</cim:RegularTimePoint.value1>
+    <cim:RegularTimePoint.value2>180.0</cim:RegularTimePoint.value2>
+    <cim:IdentifiedObject.aliasName>RegularTimePoint03</cim:IdentifiedObject.aliasName>
+    <cim:IdentifiedObject.mRID>RTP3</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>RegularTimePoint3</cim:IdentifiedObject.name>
+</cim:RegularTimePoint>
 </rdf:RDF>

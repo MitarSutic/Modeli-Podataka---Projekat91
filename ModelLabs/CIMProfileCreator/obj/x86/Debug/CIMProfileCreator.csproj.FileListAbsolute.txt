@@ -35,4 +35,3 @@ C:\Users\mitar\OneDrive\Desktop\Faks\Zimski semestar\Modeli\Projekat\Modeli-Poda
 C:\Users\mitar\OneDrive\Desktop\Faks\Zimski semestar\Modeli\Projekat\Modeli-Podataka---Projekat91\ModelLabs\CIMProfileCreator\obj\x86\Debug\CIMProfileCreator.csproj.CoreCompileInputs.cache
 C:\Users\mitar\OneDrive\Desktop\Faks\Zimski semestar\Modeli\Projekat\Modeli-Podataka---Projekat91\ModelLabs\CIMProfileCreator\obj\x86\Debug\FTN.ESI.SIMES.CIM.CIMProfileCreator.exe
 C:\Users\mitar\OneDrive\Desktop\Faks\Zimski semestar\Modeli\Projekat\Modeli-Podataka---Projekat91\ModelLabs\CIMProfileCreator\obj\x86\Debug\FTN.ESI.SIMES.CIM.CIMProfileCreator.pdb
-C:\Users\mitar\OneDrive\Desktop\Faks\Zimski semestar\Modeli\Projekat\Modeli-Podataka---Projekat91\ModelLabs\CIMProfileCreator\obj\x86\Debug\FTN.ESI.SIMES.CIM.CIMProfileCreator.exe.config

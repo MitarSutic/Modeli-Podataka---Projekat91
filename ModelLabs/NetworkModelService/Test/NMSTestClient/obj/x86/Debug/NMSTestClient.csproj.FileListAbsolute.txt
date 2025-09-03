@@ -42,4 +42,3 @@ C:\Users\mitar\OneDrive\Desktop\Faks\Zimski semestar\Modeli\Projekat\Modeli-Poda
 C:\Users\mitar\OneDrive\Desktop\Faks\Zimski semestar\Modeli\Projekat\Modeli-Podataka---Projekat91\ModelLabs\NetworkModelService\Test\NMSTestClient\obj\x86\Debug\NMSTestC.9FB1C9DD.Up2Date
 C:\Users\mitar\OneDrive\Desktop\Faks\Zimski semestar\Modeli\Projekat\Modeli-Podataka---Projekat91\ModelLabs\NetworkModelService\Test\NMSTestClient\obj\x86\Debug\NMSTestClient.exe
 C:\Users\mitar\OneDrive\Desktop\Faks\Zimski semestar\Modeli\Projekat\Modeli-Podataka---Projekat91\ModelLabs\NetworkModelService\Test\NMSTestClient\obj\x86\Debug\NMSTestClient.pdb
-C:\Users\mitar\OneDrive\Desktop\Faks\Zimski semestar\Modeli\Projekat\Modeli-Podataka---Projekat91\ModelLabs\NetworkModelService\Test\NMSTestClient\obj\x86\Debug\NMSTestClient.exe.config
