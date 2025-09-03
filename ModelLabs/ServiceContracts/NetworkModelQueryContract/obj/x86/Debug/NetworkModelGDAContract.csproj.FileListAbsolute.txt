@@ -13,6 +13,13 @@ D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\bin\FTN.ServiceContrac
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\ServiceContracts\NetworkModelQueryContract\obj\x86\Debug\ResolveAssemblyReference.cache
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\ServiceContracts\NetworkModelQueryContract\obj\x86\Debug\FTN.ServiceContracts.ServiceContracts.NetworkModelQueryContract.dll
 D:\shared\simesVezbe\Projekat\ModelLabsProjekat\ModelLabs\ServiceContracts\NetworkModelQueryContract\obj\x86\Debug\FTN.ServiceContracts.ServiceContracts.NetworkModelQueryContract.pdb
+C:\Users\mitar\OneDrive\Desktop\Modeli-Podataka---Projekat91\ModelLabs\bin\FTN.ServiceContracts.ServiceContracts.NetworkModelQueryContract.dll
+C:\Users\mitar\OneDrive\Desktop\Modeli-Podataka---Projekat91\ModelLabs\bin\FTN.ServiceContracts.ServiceContracts.NetworkModelQueryContract.pdb
+C:\Users\mitar\OneDrive\Desktop\Modeli-Podataka---Projekat91\ModelLabs\ServiceContracts\NetworkModelQueryContract\obj\x86\Debug\NetworkModelGDAContract.csproj.AssemblyReference.cache
+C:\Users\mitar\OneDrive\Desktop\Modeli-Podataka---Projekat91\ModelLabs\ServiceContracts\NetworkModelQueryContract\obj\x86\Debug\NetworkModelGDAContract.csproj.CoreCompileInputs.cache
+C:\Users\mitar\OneDrive\Desktop\Modeli-Podataka---Projekat91\ModelLabs\ServiceContracts\NetworkModelQueryContract\obj\x86\Debug\NetworkM.BEDDB4BB.Up2Date
+C:\Users\mitar\OneDrive\Desktop\Modeli-Podataka---Projekat91\ModelLabs\ServiceContracts\NetworkModelQueryContract\obj\x86\Debug\FTN.ServiceContracts.ServiceContracts.NetworkModelQueryContract.dll
+C:\Users\mitar\OneDrive\Desktop\Modeli-Podataka---Projekat91\ModelLabs\ServiceContracts\NetworkModelQueryContract\obj\x86\Debug\FTN.ServiceContracts.ServiceContracts.NetworkModelQueryContract.pdb
 C:\Users\mitar\OneDrive\Desktop\Faks\Zimski semestar\Modeli\Projekat\Modeli-Podataka---Projekat91\ModelLabs\bin\FTN.ServiceContracts.ServiceContracts.NetworkModelQueryContract.dll
 C:\Users\mitar\OneDrive\Desktop\Faks\Zimski semestar\Modeli\Projekat\Modeli-Podataka---Projekat91\ModelLabs\bin\FTN.ServiceContracts.ServiceContracts.NetworkModelQueryContract.pdb
 C:\Users\mitar\OneDrive\Desktop\Faks\Zimski semestar\Modeli\Projekat\Modeli-Podataka---Projekat91\ModelLabs\ServiceContracts\NetworkModelQueryContract\obj\x86\Debug\NetworkModelGDAContract.csproj.AssemblyReference.cache

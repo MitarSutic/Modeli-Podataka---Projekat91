@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|c:\\users\\mitar\\onedrive\\desktop\\faks\\zimski semestar\\modeli\\projekat\\modeli-podataka---projekat91\\modellabs\\common\\gda\\delta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{79B560DC-391D-471B-9A05-17CBF50253FD}|UITest\\UITest.csproj|c:\\users\\mitar\\onedrive\\desktop\\faks\\zimski semestar\\modeli\\projekat\\modeli-podataka---projekat91\\modellabs\\uitest\\getextentvalues.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79B560DC-391D-471B-9A05-17CBF50253FD}|UITest\\UITest.csproj|solutionrelative:uitest\\getextentvalues.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\common\\gda\\delta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\gda\\delta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32EE9373-A350-42AC-972B-41B2EDABA082}|NetworkModelService\\Test\\NMSTestClient\\NMSTestClient.csproj|c:\\users\\mitar\\onedrive\\desktop\\faks\\zimski semestar\\modeli\\projekat\\modeli-podataka---projekat91\\modellabs\\networkmodelservice\\test\\nmstestclient\\testgda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32EE9373-A350-42AC-972B-41B2EDABA082}|NetworkModelService\\Test\\NMSTestClient\\NMSTestClient.csproj|C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\networkmodelservice\\test\\nmstestclient\\testgda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32EE9373-A350-42AC-972B-41B2EDABA082}|NetworkModelService\\Test\\NMSTestClient\\NMSTestClient.csproj|solutionrelative:networkmodelservice\\test\\nmstestclient\\testgda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{79B560DC-391D-471B-9A05-17CBF50253FD}|UITest\\UITest.csproj|solutionrelative:uitest\\getextentvalues.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79B560DC-391D-471B-9A05-17CBF50253FD}|UITest\\UITest.csproj|c:\\users\\mitar\\onedrive\\desktop\\faks\\zimski semestar\\modeli\\projekat\\modeli-podataka---projekat91\\modellabs\\uitest\\testgda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{79B560DC-391D-471B-9A05-17CBF50253FD}|UITest\\UITest.csproj|C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\uitest\\testgda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79B560DC-391D-471B-9A05-17CBF50253FD}|UITest\\UITest.csproj|solutionrelative:uitest\\testgda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -30,28 +34,24 @@
       "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\modelresourcesdesc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|c:\\users\\mitar\\onedrive\\desktop\\faks\\zimski semestar\\modeli\\projekat\\modeli-podataka---projekat91\\modellabs\\networkmodelservice\\datamodel\\wires\\switch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\networkmodelservice\\datamodel\\wires\\switch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ADE96497-7C11-40B6-AE82-57F956C9F104}|NetworkModelService\\DataModel\\DataModel.csproj|solutionrelative:networkmodelservice\\datamodel\\wires\\switch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2630D180-1B68-4E84-AEAC-42EE8C88B50F}|NetworkModelService\\NetworkModelService.csproj|c:\\users\\mitar\\onedrive\\desktop\\faks\\zimski semestar\\modeli\\projekat\\modeli-podataka---projekat91\\modellabs\\networkmodelservice\\container.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2630D180-1B68-4E84-AEAC-42EE8C88B50F}|NetworkModelService\\NetworkModelService.csproj|C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\networkmodelservice\\container.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2630D180-1B68-4E84-AEAC-42EE8C88B50F}|NetworkModelService\\NetworkModelService.csproj|solutionrelative:networkmodelservice\\container.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|c:\\users\\mitar\\onedrive\\desktop\\faks\\zimski semestar\\modeli\\projekat\\modeli-podataka---projekat91\\modellabs\\common\\enumdescs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\common\\enumdescs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{892CBE15-9ED7-4540-81FA-0EAABA592138}|Common\\Common.csproj|solutionrelative:common\\enumdescs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79B560DC-391D-471B-9A05-17CBF50253FD}|UITest\\UITest.csproj|c:\\users\\mitar\\onedrive\\desktop\\faks\\zimski semestar\\modeli\\projekat\\modeli-podataka---projekat91\\modellabs\\uitest\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{79B560DC-391D-471B-9A05-17CBF50253FD}|UITest\\UITest.csproj|C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\uitest\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79B560DC-391D-471B-9A05-17CBF50253FD}|UITest\\UITest.csproj|solutionrelative:uitest\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79B560DC-391D-471B-9A05-17CBF50253FD}|UITest\\UITest.csproj|C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\uitest\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{79B560DC-391D-471B-9A05-17CBF50253FD}|UITest\\UITest.csproj|solutionrelative:uitest\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79B560DC-391D-471B-9A05-17CBF50253FD}|UITest\\UITest.csproj|C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\uitest\\getextentvalues.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{79B560DC-391D-471B-9A05-17CBF50253FD}|UITest\\UITest.csproj|solutionrelative:uitest\\getextentvalues.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79B560DC-391D-471B-9A05-17CBF50253FD}|UITest\\UITest.csproj|C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\uitest\\getrelatedvalues.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -134,15 +134,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Delta.cs",
               "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\Common\\GDA\\Delta.cs",
               "RelativeDocumentMoniker": "Common\\GDA\\Delta.cs",
@@ -150,12 +146,11 @@
               "RelativeToolTip": "Common\\GDA\\Delta.cs",
               "ViewState": "AgIAAMYBAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T10:16:40.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T10:16:40.566Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TestGda.cs",
               "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\UITest\\TestGda.cs",
               "RelativeDocumentMoniker": "UITest\\TestGda.cs",
@@ -163,12 +158,11 @@
               "RelativeToolTip": "UITest\\TestGda.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T09:35:38.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T09:35:38.674Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 0,
               "Title": "GetExtentValues.xaml",
               "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\UITest\\GetExtentValues.xaml",
               "RelativeDocumentMoniker": "UITest\\GetExtentValues.xaml",
@@ -211,8 +205,7 @@
               "ToolTip": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\UITest\\GetRelatedValues.xaml",
               "RelativeToolTip": "UITest\\GetRelatedValues.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-01T10:54:11.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-01T10:54:11.066Z"
             },
             {
               "$type": "Document",
@@ -228,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ModelDefines.cs",
               "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\Common\\ModelDefines.cs",
               "RelativeDocumentMoniker": "Common\\ModelDefines.cs",
@@ -236,12 +229,11 @@
               "RelativeToolTip": "Common\\ModelDefines.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAgwDwAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T12:24:53.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-26T12:24:53.365Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Container.cs",
               "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\Container.cs",
               "RelativeDocumentMoniker": "NetworkModelService\\Container.cs",
@@ -249,12 +241,11 @@
               "RelativeToolTip": "NetworkModelService\\Container.cs",
               "ViewState": "AgIAAHEAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T09:48:59.954Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T09:48:59.954Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GetExtentValues.xaml.cs",
               "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\UITest\\GetExtentValues.xaml.cs",
               "RelativeDocumentMoniker": "UITest\\GetExtentValues.xaml.cs",
@@ -262,12 +253,11 @@
               "RelativeToolTip": "UITest\\GetExtentValues.xaml.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAQwC4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T10:41:42.624Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-01T10:41:42.624Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TestGda.cs",
               "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\Test\\NMSTestClient\\TestGda.cs",
               "RelativeDocumentMoniker": "NetworkModelService\\Test\\NMSTestClient\\TestGda.cs",
@@ -275,12 +265,11 @@
               "RelativeToolTip": "NetworkModelService\\Test\\NMSTestClient\\TestGda.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAgwOwAAABtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T13:24:54.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T13:24:54.919Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "WpfXamlLoader.cs",
               "DocumentMoniker": "C:\\Users\\mitar\\AppData\\Local\\Temp\\.vsdbgsrc\\cc40e6c9113e8e409e66507b58c06c87fa4d9cf9f4e297b5ae16de018dfbe2c9\\WpfXamlLoader.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\cc40e6c9113e8e409e66507b58c06c87fa4d9cf9f4e297b5ae16de018dfbe2c9\\WpfXamlLoader.cs",
@@ -293,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Switch.cs",
               "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\NetworkModelService\\DataModel\\Wires\\Switch.cs",
               "RelativeDocumentMoniker": "NetworkModelService\\DataModel\\Wires\\Switch.cs",
@@ -301,12 +290,11 @@
               "RelativeToolTip": "NetworkModelService\\DataModel\\Wires\\Switch.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAMYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T10:00:35.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T10:00:35.982Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ModelResourcesDesc.cs",
               "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\Common\\ModelResourcesDesc.cs",
               "RelativeDocumentMoniker": "Common\\ModelResourcesDesc.cs",
@@ -314,12 +302,11 @@
               "RelativeToolTip": "Common\\ModelResourcesDesc.cs",
               "ViewState": "AgIAAF8DAAAAAAAAAAArwHIDAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-02T13:14:48.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-02T13:14:48.326Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\UITest\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "UITest\\MainWindow.xaml.cs",
@@ -327,12 +314,11 @@
               "RelativeToolTip": "UITest\\MainWindow.xaml.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACUAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T09:40:31.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T09:40:31.884Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "EnumDescs.cs",
               "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\Common\\EnumDescs.cs",
               "RelativeDocumentMoniker": "Common\\EnumDescs.cs",
@@ -340,8 +326,7 @@
               "RelativeToolTip": "Common\\EnumDescs.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-03T09:48:14.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T09:48:14.922Z"
             },
             {
               "$type": "Document",
@@ -369,15 +354,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\UITest\\MainWindow.xaml",
               "RelativeDocumentMoniker": "UITest\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\mitar\\OneDrive\\Desktop\\Faks\\Zimski semestar\\Modeli\\Projekat\\Modeli-Podataka---Projekat91\\ModelLabs\\UITest\\MainWindow.xaml",
               "RelativeToolTip": "UITest\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-01T10:51:50.762Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-01T10:51:50.762Z"
             },
             {
               "$type": "Document",

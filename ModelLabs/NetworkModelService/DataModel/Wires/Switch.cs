@@ -15,7 +15,7 @@ namespace FTN.Services.NetworkModelService.DataModel.Wires
         private bool retained;
         private int switchOnCount;
         private DateTime switchOnDate;
-        private List<long> switchSchedules;
+        private List<long> switchSchedules = new List<long>();
         public Switch(long globalId) : base(globalId)
         {
         }
@@ -50,7 +50,7 @@ namespace FTN.Services.NetworkModelService.DataModel.Wires
             set { switchOnDate = value; }
         }
 
-        public List<long> SwitchSchedule
+        public List<long> SwitchSchedules
         {
             get { return switchSchedules; }
             set { switchSchedules = value; }
@@ -66,7 +66,7 @@ namespace FTN.Services.NetworkModelService.DataModel.Wires
                         (x.retained == this.retained) &&
                         (x.switchOnCount == this.switchOnCount) &&
                         (x.switchOnDate == this.switchOnDate) &&
-                        CompareHelper.CompareLists(x.SwitchSchedule, SwitchSchedule));
+                        CompareHelper.CompareLists(x.switchSchedules, switchSchedules));
             }
             else
             {
@@ -120,6 +120,10 @@ namespace FTN.Services.NetworkModelService.DataModel.Wires
 
                 case ModelCode.SWITCH_SWITCH_ON_DATE:
                     property.SetValue(switchOnDate);
+                    break;
+
+                case ModelCode.SWITCH_SWITCH_SCHEDULES:
+                    property.SetValue(switchSchedules);
                     break;
 
                 default:
@@ -183,7 +187,7 @@ namespace FTN.Services.NetworkModelService.DataModel.Wires
         {
             switch (referenceId)
             {
-                case ModelCode.SWITCH_SWITCH_SCHEDULES:
+                case ModelCode.SWITCH_SCHEDULE_SWITCH:
                     switchSchedules.Add(globalId);
                     break;
                 default:
@@ -196,7 +200,7 @@ namespace FTN.Services.NetworkModelService.DataModel.Wires
         {
             switch (referenceId)
             {
-                case ModelCode.SWITCH_SWITCH_SCHEDULES:
+                case ModelCode.SWITCH_SCHEDULE_SWITCH:
 
                     if (switchSchedules.Contains(globalId))
                     {

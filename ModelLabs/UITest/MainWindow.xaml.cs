@@ -22,7 +22,7 @@ namespace UITest
     /// </summary>
     public partial class MainWindow : Window
     {
-        public static TestGda testGda;
+        public static MyTestGda testGda;
         public static ModelResourcesDesc resourcesDesc;
         public static Dictionary<ModelCode, List<ModelCode>> propertyIDsByModelCode;
         public static List<long> gids;
@@ -31,7 +31,7 @@ namespace UITest
         {
             InitializeComponent();
 
-            testGda = new TestGda();
+            testGda = new MyTestGda();
             resourcesDesc = new ModelResourcesDesc();
             propertyIDsByModelCode = Enum.GetValues(typeof(ModelCode))
                 .Cast<ModelCode>()

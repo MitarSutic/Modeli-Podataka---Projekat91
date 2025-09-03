@@ -101,15 +101,55 @@ namespace FTN.ESI.SIMES.CIM.CIMAdapter.Importer
 			//ImportPowerTransformers();
 			//ImportTransformerWindings();
 			//ImportWindingTests();
+			ImportDayType();
+			ImportSeason();
+            ImportRegularTimePoint();
 			ImportBreaker();
+			ImportSwitchSchedule();
 			ImportRecloser();
 			ImportLoadBreakSwitch();
-			ImportSeason();
-			ImportDayType();
-			ImportSwitchSchedule();
 
             LogManager.Log("Loading elements and creating delta completed.", LogLevel.Info);
 		}
+
+        private void ImportRegularTimePoint()
+        {
+            SortedDictionary<string, object> cimRegularTimePoints = concreteModel.GetAllObjectsOfType("FTN.RegularTimePoint");
+            if (cimRegularTimePoints != null)
+            {
+                foreach (KeyValuePair<string, object> cimRegTimePtPair in cimRegularTimePoints)
+                {
+                    FTN.RegularTimePoint cimRegularTimePoint = cimRegTimePtPair.Value as FTN.RegularTimePoint;
+
+                    ResourceDescription rd = CreateRegularTimePointResourceDescription(cimRegularTimePoint);
+                    if (rd != null)
+                    {
+                        delta.AddDeltaOperation(DeltaOpType.Insert, rd, true);
+                        report.Report.Append("RegularTimePoint ID = ").Append(cimRegularTimePoint.ID).Append(" SUCCESSFULLY converted to GID = ").AppendLine(rd.Id.ToString());
+                    }
+                    else
+                    {
+                        report.Report.Append("RegularTimePoint ID = ").Append(cimRegularTimePoint.ID).AppendLine(" FAILED to be converted");
+                    }
+                }
+                report.Report.AppendLine();
+            }
+        }
+
+        private ResourceDescription CreateRegularTimePointResourceDescription(RegularTimePoint cimRegularTimePoint)
+        {
+            ResourceDescription rd = null;
+            if (cimRegularTimePoint != null)
+            {
+                long gid = ModelCodeHelper.CreateGlobalId(0, (short)DMSType.REG_TIME_POINT, importHelper.CheckOutIndexForDMSType(DMSType.REG_TIME_POINT));
+                rd = new ResourceDescription(gid);
+                importHelper.DefineIDMapping(cimRegularTimePoint.ID, gid);
+
+                ////populate ResourceDescription
+                PowerTransformerConverter.PopulateRegularTimePointProperties(cimRegularTimePoint, rd, importHelper, report);
+            }
+            return rd;
+        }
 
         #region Import
 

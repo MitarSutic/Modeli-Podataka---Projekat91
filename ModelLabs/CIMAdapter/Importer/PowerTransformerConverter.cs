@@ -217,9 +217,35 @@
             PopulateBasicIntervalScheduleProperties(cimRegularIntervalSchedule, rd);
         }
 
-        internal static void PopulateRegularTimePointProperties(RegularTimePoint cimRegularTimePoint, ResourceDescription rd)
+        internal static void PopulateRegularTimePointProperties(RegularTimePoint cimRegularTimePoint, ResourceDescription rd, ImportHelper importHelper, TransformAndLoadReport report)
         {
-            PopulateIdentifiedObjectProperties(cimRegularTimePoint, rd);
+            if ((cimRegularTimePoint != null) && (rd != null))
+            {
+                PowerTransformerConverter.PopulateIdentifiedObjectProperties(cimRegularTimePoint, rd);
+
+                if (cimRegularTimePoint.SequenceNumberHasValue)
+                {
+                    rd.AddProperty(new Property(ModelCode.REG_TIME_POINT_SEQ_NUM, cimRegularTimePoint.SequenceNumber));
+                }
+                if (cimRegularTimePoint.Value1HasValue)
+                {
+                    rd.AddProperty(new Property(ModelCode.REG_TIME_POINT_VAL1, cimRegularTimePoint.Value1));
+                }
+                if (cimRegularTimePoint.Value2HasValue)
+                {
+                    rd.AddProperty(new Property(ModelCode.REG_TIME_POINT_VAL2, cimRegularTimePoint.Value2));
+                }
+                if (cimRegularTimePoint.IntervalScheduleHasValue)
+                {
+                    long gid = importHelper.GetMappedGID(cimRegularTimePoint.IntervalSchedule.ID);
+                    if (gid < 0)
+                    {
+                        report.Report.Append("WARNING: Convert ").Append(cimRegularTimePoint.GetType().ToString()).Append(" rdfID = \"").Append(cimRegularTimePoint.ID);
+                        report.Report.Append("\" - Failed to set reference to Interval Schedule: rdfID \"").Append(cimRegularTimePoint.IntervalSchedule.ID).AppendLine(" \" is not mapped to GID!");
+                    }
+                    rd.AddProperty(new Property(ModelCode.REG_TIME_POINT_INTERVAL_SCHEDULE, gid));
+                }
+            }
         }
         #endregion Populate ResourceDescription
 

@@ -61,6 +61,15 @@ namespace FTN.Services.NetworkModelService.DataModel.LoadModel
                     break;
             }
         }
+        public override void SetProperty(Property property)
+        {
+            switch (property.Id)
+            {
+                default:
+                    base.SetProperty(property);
+                    break;
+            }
+        }
         #endregion IAccess implementation
 
         #region IReference implementation
@@ -87,7 +96,7 @@ namespace FTN.Services.NetworkModelService.DataModel.LoadModel
         {
             switch (referenceId)
             {
-                case ModelCode.DAYTYPE_SDTS:
+                case ModelCode.SEASON_DTS_DAYTYPE:
                     seasonDayTypeSchedules.Add(globalId);
                     break;
 
@@ -101,7 +110,7 @@ namespace FTN.Services.NetworkModelService.DataModel.LoadModel
         {
             switch (referenceId)
             {
-                case ModelCode.DAYTYPE_SDTS:
+                case ModelCode.SEASON_DTS_DAYTYPE:
 
                     if (seasonDayTypeSchedules.Contains(globalId))
                     {

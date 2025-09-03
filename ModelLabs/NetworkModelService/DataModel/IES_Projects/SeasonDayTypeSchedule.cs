@@ -33,8 +33,8 @@ namespace FTN.Services.NetworkModelService.DataModel.IES_Projects
             if (base.Equals(obj))
             {
                 SeasonDayTypeSchedule x = (SeasonDayTypeSchedule)obj;
-                return ((x.DayType == this.DayType) &&
-                        (x.Season == this.Season));
+                return ((x.dayType == this.dayType) &&
+                        (x.season == this.season));
             }
             else
             {
@@ -95,12 +95,14 @@ namespace FTN.Services.NetworkModelService.DataModel.IES_Projects
         {
             if (dayType != 0 && (refType == TypeOfReference.Reference || refType == TypeOfReference.Both))
             {
-                references[ModelCode.SEASON_DTS_DAYTYPE] = new List<long> { dayType };
+                references[ModelCode.SEASON_DTS_DAYTYPE] = new List<long>();
+                references[ModelCode.SEASON_DTS_DAYTYPE].Add(dayType);
             }
 
             if (season != 0 && (refType == TypeOfReference.Reference || refType == TypeOfReference.Both))
             {
-                references[ModelCode.SEASON_DTS_SEASON] = new List<long> { season };
+                references[ModelCode.SEASON_DTS_SEASON] = new List<long>();
+                references[ModelCode.SEASON_DTS_SEASON].Add(season); 
             }
 
             base.GetReferences(references, refType);
